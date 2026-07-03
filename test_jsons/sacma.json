@@ -1,0 +1,9 @@
+{
+    "name": "Acayip_Bir_Mesaj",
+    "bunu_sistem_gormezden_gelmeli": "evet_gelecek",
+    "items": [
+      { "type": "int", "name": "normal_veri_" },
+      { "type": "BilinmeyenTip", "name": "acayip_veri!@#" },
+      { "name": "tipi_unutulmus_veri_" }
+    ]
+  }
