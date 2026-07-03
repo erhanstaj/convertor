@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  analyzer-tool:
+    build: .
+    container_name: xml_analyzer_container
+    # Sunucudaki fiziksel klasörleri, Docker'ın içindeki sanal klasörlere bağlıyoruz
+    volumes:
+      - ./test_jsonlar:/app/test_jsonlar
+      - ./eski_sistemler:/app/eski_sistemler
+      - ./sonuclar:/app/sonuclar
+      - ./company_rules.json:/app/company_rules.json
