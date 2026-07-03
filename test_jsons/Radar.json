@@ -1,0 +1,9 @@
+{
+    "name": "MsgRadar",
+    "groupName" : "Radar",
+    "items":[
+        {"type": "uint", "name": "id_"},
+        {"type": "string", "name": "classification_"},
+        {"type": "float", "name": "yeni_gereksiz_veri_"}
+    ]
+}
