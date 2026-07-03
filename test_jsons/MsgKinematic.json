@@ -1,0 +1,8 @@
+{
+    "name": "MsgKinematic",
+    "groupName": "Target",
+    "items": [
+      { "type": "uint", "name": "id_" },
+      { "type": "float", "name": "velocity_t_" }
+    ]
+  }
