@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<struct name="TypeBilinmeyenEski">
+  <member name="eski_veri" type="string"/>
+</struct>
