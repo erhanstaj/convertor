@@ -1,0 +1,16 @@
+{
+    "naming": {
+      "remove_prefix": "msg",
+      "add_prefix": "Type"
+    },
+    "types": {
+      "basic_types": [
+        "int", "uint", "float", "double", "string", "bool", "u_int16", "unint"
+      ]
+    },
+    "paths": {
+      "input_json_folder": "./test_jsonlar",
+      "output_xml_folder": "./sonuclar",
+      "legacy_xml_folder": "./eski_sistemler"
+    }
+  }
