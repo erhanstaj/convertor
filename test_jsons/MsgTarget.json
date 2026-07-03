@@ -1,0 +1,16 @@
+{
+    "name": "MsgTarget",
+    "groupName": "Target",
+    "items": [
+      { "type": "uint", "name": "id_" },
+      { "type": "float", "name": "velocity_x_" },
+      { "type": "float", "name": "velocity_y_" },
+      { "type": "float", "name": "velocity_z_" },
+      { "type": "double", "name": "timestamp_" },
+      { "type": "MsgHeader", "name": "header_" },
+      { "type": "string", "name": "description_" },
+      { "type": "bool", "name": "is_active_" },
+      { "type": "unint", "name": "status_code_" },
+      { "type": "MsgMetadata", "name": "metadata_" }
+    ]
+  }
