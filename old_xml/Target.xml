@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<struct name="TypeTarget_Eski">
+  <member name="id" type="string"/>
+  <member name="velocity_x" type="float"/>
+  <member name="timestamp" type="string"/>
+  <member name="eski_silinen_veri" type="int"/>
+</struct>
