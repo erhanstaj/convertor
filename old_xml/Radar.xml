@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<struct name= "TypeMsgRadar">
+  <member name="id" type="u_int16"/>
+  <member name="classification" type="string"/>
+</struct>
