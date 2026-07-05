@@ -43,4 +43,6 @@ docker-compose up --build
 python -m PyInstaller --onefile --windowed --name KurumsalXmlAraci gui.py
 
 ### Yazılımcı Notu
-Bu sistem SOLID prensiplerine sadık kalınarak modüler (core, helpers, interfaces) bir yapıda kurgulanmıştır. Sistem JSON dosyalarını metin olarak manipüle etmez; AST (Abstract Syntax Tree) benzeri bir sözlüğe dönüştürür. İleride C++ veya ROS2 formatlarına dönüşüm gerekirse, IConverter arayüzünden yeni bir sınıf türetilmesi yeterlidir.
+Bu sistem SOLID prensiplerine sadık kalınarak modüler (core, helpers, interfaces) bir yapıda kurgulanmıştır.
+Sistem JSON dosyalarını metin olarak manipüle etmez; AST (Abstract Syntax Tree) benzeri bir sözlüğe dönüştürür.
+İleride C++ veya ROS2 formatlarına dönüşüm gerekirse, IConverter arayüzünden yeni bir sınıf türetilmesi yeterlidir.
